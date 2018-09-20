@@ -3,5 +3,5 @@ FAS3.0 stream control script 一键脚本
 
 
 ```
-wget https://gitee.com/yuqingkj/fas/raw/master/fas.sh;bash fas.sh
+wget https://gitee.com/yuqingkj/FAS4.0/raw/master/fas.sh;bash fas.sh
 ```
