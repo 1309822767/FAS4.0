@@ -1,6 +1,6 @@
 #!/bin/bash
-#凌一Qq863963860
-#筑梦FAS系统破解shell本
+#余情科技QQ：57449422
+#筑梦FAS系统破解
 function fhqcz() {
 	#关闭SELinux
 	setenforce 0 >/dev/null 2>&1
@@ -404,10 +404,6 @@ rm -rf /APP
 if [ ! -f /root/fasapp_by_ly.apk ]; then
 echo
 echo "筑梦FAS系统APP制作失败！"
-echo
-echo "请自行前往官方交流群获取手动对接APP源！"
-echo
-echo "官方交流群：259282245    欢迎你的加入！"
 exit;0
 fi
 }
@@ -430,10 +426,6 @@ rm -rf /APP
 if [ ! -f /var/www/html/fasapp_by_ly.apk ]; then
 echo
 echo "筑梦FAS系统APP制作失败！"
-echo
-echo "请自行前往官方交流群获取手动对接APP源！"
-echo
-echo "官方交流群：259282245    欢迎你的加入！"
 fi
 }
 function zhuji() {
@@ -708,8 +700,7 @@ echo "停止VPN vpn stop        数据库开启：onsql    "
 echo "开任意端口 port         数据库关闭：unsql    "
 echo "---------------------------------------------"
 echo "APP下载地址: http://"$IP":"$lyApacheport"/fasapp_by_ly.apk"
-echo "FAS破解作者: 凌一    QQ：863963860         "
-echo "官方交流群：259282245    欢迎你的加入！  "
+echo "FAS破解作者:余情科技   QQ：57449422        "
 echo "---------------------------------------------"
 echo "---------------------------------------------"
 exit;0
@@ -1123,7 +1114,7 @@ sleep 2
 echo "-----------------欢迎使用FAS网络用户管理系统--------------------"
 echo "----------------"$banben" ("$time123"更新 (No."$version"))------------------"
 echo "本脚本仅适用于学习与研究等个人用途，请勿用于任何违法国家法律的活动。"
-echo "           FAS流控系统破解脚本，破解作者："$Crackauthor"                 "
+echo "           FAS流控系统破解脚本，破解作者："余情科技"                 "
 echo "----------------------同意 请回车继续---------------------------"
 read
 ipget
@@ -1135,7 +1126,7 @@ sleep 2
 echo "-----------------欢迎使用FAS网络用户管理系统--------------------"
 echo "----------------"$banben" ("$time123"更新 (No."$version"))------------------"
 echo "本脚本仅适用于学习与研究等个人用途，请勿用于任何违法国家法律的活动。"
-echo "           FAS流控系统破解脚本，破解作者："$Crackauthor"                "
+echo "           FAS流控系统破解脚本，破解作者："余情科技"                "
 echo "----------------------同意 请回车继续---------------------------"
 read
 ipget
