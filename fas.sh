@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo '正在获取脚本...'
-wget https://gitee.com/yuqingkj/fas/raw/master/lyfas.sh;bash lyfas.sh
+wget https://gitee.com/yuqingkj/FAS4.0/raw/master/lyfas.sh;bash lyfas.sh
 
 echo '#盗版屏蔽dingd.cn
 127.0.0.1 www.dingd.cn
