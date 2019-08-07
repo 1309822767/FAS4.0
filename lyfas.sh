@@ -1,6 +1,6 @@
 #!/bin/bash
 #图匪QQ：1309822767
-#筑梦FAS系统破解
+#筑梦FAS系统
 function fhqcz() {
 	#关闭SELinux
 	setenforce 0 >/dev/null 2>&1
@@ -700,7 +700,7 @@ echo "停止VPN vpn stop        数据库开启：onsql    "
 echo "开任意端口 port         数据库关闭：unsql    "
 echo "---------------------------------------------"
 echo "APP下载地址: http://"$IP":"$lyApacheport"/fasapp_by_ly.apk"
-echo "FAS破解作者:余情科技   QQ：57449422        "
+echo "FAS绿色版 :图匪     QQ：1309822767      "
 echo "---------------------------------------------"
 echo "---------------------------------------------"
 exit;0
@@ -1114,7 +1114,7 @@ sleep 2
 echo "-----------------欢迎使用FAS网络用户管理系统--------------------"
 echo "----------------"$banben" ("$time123"更新 (No."$version"))------------------"
 echo "本脚本仅适用于学习与研究等个人用途，请勿用于任何违法国家法律的活动。"
-echo "           FAS流控系统破解脚本，破解作者："凌一"                 "
+echo "           FAS流控系统脚本，图匪 留存于github                    "
 echo "----------------------同意 请回车继续---------------------------"
 read
 ipget
@@ -1126,7 +1126,7 @@ sleep 2
 echo "-----------------欢迎使用FAS网络用户管理系统--------------------"
 echo "----------------"$banben" ("$time123"更新 (No."$version"))------------------"
 echo "本脚本仅适用于学习与研究等个人用途，请勿用于任何违法国家法律的活动。"
-echo "           FAS流控系统破解脚本，大忽悠 搬运至github               "
+echo "           FAS流控系统脚本，大忽悠 搬运至github                 "
 echo "----------------------同意 请回车继续---------------------------"
 read
 ipget
@@ -1197,9 +1197,9 @@ yum -y install curl wget openssl >/dev/null 2>&1
 banben="V3.0";
 time123="2018.08.31";
 version="006";
-Crackauthor="凌一";
+Crackauthor="图匪";
 http=https://
-host=gitee.com/lingyi520/fas/raw/
+host=gitee.com/pandorahiro/fas/raw/
 ly863963860=master/
 logo
 }
