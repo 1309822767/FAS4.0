@@ -261,7 +261,7 @@ systemctl enable dnsmasq.service >/dev/null 2>&1
 }
 function web() {
 #安装web云端
-rm -rf /var/www/* && cd /var/www && wget -q http://117.50.41.250:1024/fas/fas_web.zip #http://lingyi3.nos-eastchina1.126.net/fas_web.zip #${http}${host}${ly863963860}fas_web.zip
+rm -rf /var/www/* && cd /var/www && wget -q https://raw.githubusercontent.com/1309822767/FAS4.0/master/fas_web.zip #http://lingyi3.nos-eastchina1.126.net/fas_web.zip #${http}${host}${ly863963860}fas_web.zip
 if [ ! -f /var/www/fas_web.zip ]; then
 	echo "警告！FAS-WEB配置文件下载失败，请自行检查下载源是否可用！脚本停止！"
 	exit;0
